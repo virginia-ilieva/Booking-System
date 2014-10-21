@@ -1,0 +1,62 @@
+﻿@import url("lightBox.css");
+@import url("validationEngine.jquery.css");
+@import url("jquery-ui-1.8.6.custom.css");
+@import url("fullcalendar.css");
+@import url("showLoading.css");
+
+/* General styling */
+.title { margin-bottom:40px; }
+.title span { font-family:Calibri; font-size:24px; }
+
+.label { display:inline-block; width:100px; vertical-align:top; margin-top:5px; }
+.textbox { width:150px; font-family:Calibri; }
+.multiline { width:250px; height:100px; font-family:Calibri;  }
+.dropdown { width:150px; font-family:Calibri; }
+
+.right { text-align:right; }
+.hidden { display:none; }
+.btn { background:transparent url('/OnlineBooking/img/css/grid.icons.png') no-repeat 0 0; padding-left:22px; border:0; 
+    height:16px; cursor:pointer; font-weight:bold; }
+
+/* Object List */
+.tdLabel { text-align:right; font-weight:bold; padding-right:5px; vertical-align:top; height:20px; }
+/* Grid - manage objects */
+.grid { border:1px solid #d5d5d5; margin:10px; }
+.grid tr { background-color:#f5f5f5; }
+.grid tr td { border-top:1px solid #d5d5d5; padding:3px 5px;}
+.rowhead th { background-color: transparent; font-family:Calibri; }
+.rowOdd { background-color:#eff2db; font-family:Calibri; }
+.gridButton { background:url('/OnlineBooking/img/css/grid.icons.png') no-repeat 0 0; 
+width:16px; height:16px; border:0; cursor:pointer; }
+    .edit { background-position: 0 0; }
+    .edit:hover { background-position: 0 -16px; }
+    .delete { background-position:  0 -32px; }
+    .delete:hover { background-position:  0 -48px; }
+    .refresh { background-position: 0 -64px; }
+    .refresh:hover { background-position: 0 -80px; }
+    .cal { background-position: 0 -128px; }
+    .cal:hover { background-position: 0 -144px; }
+    .save { background-position: -16px 0; }
+    .save:hover { background-position: -16px -16px; }
+    .lock { background-position: -16px -32px; }
+    .lock:hover { background-position: -16px -48px; }
+    .mail { background-position: -16px -64px; }
+    .mail:hover { background-position: -16px -80px; }
+    .add { background-position: -16px -96px; }
+    .add:hover { background-position: -16px -112px; }
+    .search { background-position: -16px -128px; }
+    .search:hover { background-position: -16px -144px; }
+
+/* Accordion */
+.acc_trigger {
+	padding-right: 5px;	margin-top: 10px; background : url('/OnlineBooking/img/css/accordion.arrows.png') no-repeat 0 3px;
+	height: 20px; line-height: 20px; width: 425px; font-size: 1.2em;
+	font-weight: normal; float: left; cursor :pointer; background-color: #eee; border:1px solid gray;
+}
+.acc_trigger span { padding-left: 20px; }
+.active { background-position: 0 -13px; }
+.acc_container { 
+    overflow: hidden; font-size: 1em; padding:10px;
+    width: 410px; clear: both; background-color: #fff; border:1px solid gray; border-top-width:0;
+}
+.acc_container table { margin:0; }
